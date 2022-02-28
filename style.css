@@ -32,3 +32,78 @@ position: absolute;
  box-shadow: 0 20px 35px rgba(0, 0,0,0.15);
 display: flex;
 
+
+} 
+
+.editor{
+  margin-left: 30px;
+ min-width: 55vmin;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+gap: 20px;
+} 
+.editor label{
+  
+font-size: 2.8vmin;
+color: #2a292a;
+font-weight: 400;
+
+}
+.editor input[type="range"]
+{
+ display: block;
+ width: 80%;
+ margin-top: 4px;
+
+}
+.flip-buttons{
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+  
+}
+.flip-buttons .flip-option{
+ margin-top: 10px;
+
+}
+
+
+
+ .result{
+width: 60vw;
+
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+}
+.result img{
+ 
+display: block;
+position: relative;
+width: 90% ;
+height: 370px;
+margin: auto;
+overflow: hidden;
+
+}
+input[type="file"]{
+  display: none;
+}
+.result label{
+ display: inline-block;
+ position: relative;
+ margin: 0 auto;
+ width: 220px;
+ background-color: #025bee;
+ color: #ffffff;
+ text-align: center;
+ padding: 15px 0;
+ border-radius: 5px;
+font-size: 2.8vmin;
+font-weight: 600;
+cursor: pointer;
+}
+
