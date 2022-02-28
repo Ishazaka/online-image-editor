@@ -1,1 +1,34 @@
 
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ 
+
+}
+.navbar{
+  background: rgb(88, 193, 201) !important ;
+}
+.navbar-brand{
+  color: white;
+  font-size: 25px;
+padding-left: 20px;
+}
+body{
+  background-color: #d3e8f5;
+}
+.wrapper{
+  margin-top: 40px;
+width: 85vw;
+min-height: 50vmin;
+ padding: 50px 30px;
+ background-color: #ffffff;
+position: absolute;
+ transform: translate(-50% ,-50%);
+ top: 50%;
+ left: 50%;
+ border-radius: 10px;
+ box-shadow: 0 20px 35px rgba(0, 0,0,0.15);
+display: flex;
+
